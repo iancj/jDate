@@ -1,0 +1,10 @@
+/*reset*/
+*{
+	margin:0;
+	padding:0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	outline: 0;
+}
+ul,dl{list-style:none;}
+body{font:normal 16px/1 "Helvetica Neue", Helvetica, STHeiTi, sans-serif}
+html,body{height:100%;width:100%;}
