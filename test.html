@@ -9,12 +9,16 @@
 	<script>
 	window.onload=function(){
 		var test=document.querySelectorAll("#test");
-		var now=new Date(),
-			year=now.getFullYear(),
-			month=now.getMonth(),
-			date=now.getDate();
+		var time="2014-5-16",
+			datetime=new Date(time);
+			
+		test[0].innerHTML=datetime;
+		// var now=new Date(),
+		// 	year=now.getFullYear(),
+		// 	month=now.getMonth(),
+		// 	date=now.getDate();
 
-		test[0].innerHTML=year+"-"+month+"-"+date;
+		// test[0].innerHTML=year+"-"+month+"-"+date;
 	};
 	</script>
 </body>
