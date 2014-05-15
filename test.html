@@ -10,10 +10,10 @@
 	window.onload=function(){
 		var test=document.querySelectorAll("#test");
 		var time="2014-5-16",
-			datetime=new Date(time);
-			
+			datetime=new Date(Date.parse(time));
+
 			// time.toISOString();
-		test[0].innerHTML=time.toISOString();
+		test[0].innerHTML=datetime;
 		// var now=new Date(),
 		// 	year=now.getFullYear(),
 		// 	month=now.getMonth(),
