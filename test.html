@@ -9,11 +9,12 @@
 	<script>
 	window.onload=function(){
 		var test=document.querySelectorAll("#test");
-		var time="2014-5-16",
-			datetime=new Date(Date.parse(time));
-
-			// time.toISOString();
-		test[0].innerHTML=datetime;
+		var time="2014-5-16";
+			time=time.replace(/-/g ,"/");
+			datetime=new Date(time);
+			test[0].innerHTML=datetime;
+		// 	// time.toISOString();
+		// test[0].innerHTML=datetime;
 		// var now=new Date(),
 		// 	year=now.getFullYear(),
 		// 	month=now.getMonth(),
