@@ -101,8 +101,8 @@
 	border:5px solid #000;
 }
 
-.icon-arrowright::before{border-color:transparent transparent transparent #000;left:0;}
-.icon-arrowleft::before{border-color:transparent #000 transparent transparent;right:0;}
+.icon-arrowright::before{border-color:transparent transparent transparent #000;left:5px;}
+.icon-arrowleft::before{border-color:transparent #000 transparent transparent;right:10px;}
 
 #jdate-btn-check,
 #jdate-btn-remove{

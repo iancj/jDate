@@ -292,7 +292,7 @@
 
             var init=function(){
 
-                var val = $self.val()=="" ? null: $self.val();
+                var val = $self.val()=="" ? null: $self.val().replace(/-/g,"/");
                 var jdate = new Jdate();
                 //如果input没有值的话，日期初始化以今天为准，否则以input中的日期为准
                 if(!val){
