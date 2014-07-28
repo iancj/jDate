@@ -63,7 +63,8 @@
             });
 
             $jdateheader_btn_check.click(function(){
-                $target.val(selectedDate.year+"-"+selectedDate.month+"-"+selectedDate.date);
+                //写入表单元素中，并触发change事件
+                $target.val(selectedDate.year+"-"+selectedDate.month+"-"+selectedDate.date).change();
                  _close($jdate);
             });
 
